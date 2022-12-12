@@ -111,7 +111,8 @@ class _LoginPageState extends State<LoginPage> {
                           )
                         );
                       },
-                      color: Colors.yellow.shade300,
+                      btnColor: Colors.yellow.shade300,
+                      txtColor: Colors.blue.shade300,
                     )
                   ],
                 ),
@@ -222,7 +223,8 @@ class _RegisterPageState extends State<RegisterPage> {
                           )
                         );
                       },
-                      color: Colors.yellow.shade300,
+                      btnColor: Colors.yellow.shade300,
+                      txtColor: Colors.blue.shade300,
                     )
                   ],
                 ),

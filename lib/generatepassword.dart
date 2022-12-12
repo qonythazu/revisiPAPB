@@ -51,11 +51,12 @@ class _GeneratePasswordState extends State<GeneratePassword> {
             ),
             Center(
               child: MyButton(text: 
-                "Select", 
+                "S E L E C T", 
                 onPressed: (){
                   Navigator.pop(context, generatedPassword);
                 },
-                color: Colors.green.shade300,
+                btnColor: Colors.green.shade300,
+                txtColor: Colors.white,
               ),
             )
           ],

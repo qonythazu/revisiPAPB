@@ -8,12 +8,13 @@ class MyButton extends StatefulWidget {
     {super.key,
     required this.text,
     required this.onPressed, 
-    required this.color
+    required this.btnColor, required this.txtColor
     }
   );
   final String text;
   final GestureTapCallback onPressed;
-  final Color color;
+  final Color btnColor;
+  final Color txtColor;
 
   @override
   State<MyButton> createState() => _MyButtonState();
@@ -27,7 +28,7 @@ class _MyButtonState extends State<MyButton> {
       child: ElevatedButton(
         onPressed: widget.onPressed,
         style: ElevatedButton.styleFrom(
-          backgroundColor: widget.color,
+          backgroundColor: widget.btnColor,
           shape: const StadiumBorder(),
           minimumSize: const Size(200, 50)
         ),
@@ -35,7 +36,7 @@ class _MyButtonState extends State<MyButton> {
           widget.text,
           style: TextStyle(
             fontWeight: FontWeight.w700,
-            color: Colors.blue.shade300
+            color: widget.txtColor
           ),
         )),
     );
