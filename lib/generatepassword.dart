@@ -54,7 +54,8 @@ class _GeneratePasswordState extends State<GeneratePassword> {
                 "Select", 
                 onPressed: (){
                   Navigator.pop(context, generatedPassword);
-                }
+                },
+                color: Colors.green.shade300,
               ),
             )
           ],

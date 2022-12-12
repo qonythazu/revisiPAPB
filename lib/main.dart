@@ -110,7 +110,8 @@ class _LoginPageState extends State<LoginPage> {
                             builder: (context) => FolderList()
                           )
                         );
-                      }
+                      },
+                      color: Colors.yellow.shade300,
                     )
                   ],
                 ),
@@ -220,7 +221,8 @@ class _RegisterPageState extends State<RegisterPage> {
                             builder: (context) => FolderList()
                           )
                         );
-                      }
+                      },
+                      color: Colors.yellow.shade300,
                     )
                   ],
                 ),

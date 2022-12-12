@@ -49,7 +49,13 @@ class _ChangePasswordMasterState extends State<ChangePasswordMaster> {
                 ],
               ),
             ),
-            Center(child: MyButton(text: "Save", onPressed: (){}))
+            Center(
+              child: MyButton(
+                text: "Save", 
+                onPressed: (){},
+                color: Colors.green.shade300,
+              )
+            )
           ],
         ),
       ),

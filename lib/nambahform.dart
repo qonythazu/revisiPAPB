@@ -139,7 +139,13 @@ class _CreateCredentialState extends State<CreateCredential> {
                 )
               ),
             ),
-            Center(child: MyButton(text: "Save", onPressed: (){}))
+            Center(
+              child: MyButton(
+                text: "Save", 
+                onPressed: (){},
+                color: Colors.green.shade300,
+              )
+            )
           ],
         ),
       ),
